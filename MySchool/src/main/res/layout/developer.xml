@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="개발자 소개">
+        <Preference
+            android:title="TaeUk Kim"
+            android:summary="어플 개발">
+        </Preference>
+        <Preference
+            android:title="다크아콘"
+            android:summary="서버 개발">
+        </Preference>
+        <Preference
+            android:title="톡탁"
+            android:summary="디자인">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Thanks to">
+        <Preference
+            android:title="Prizm">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

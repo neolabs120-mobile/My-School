@@ -1,0 +1,23 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory
+        android:title="데이터">
+        <Preference
+            android:title="학교 데이터 초기화"
+            android:summary="학교 정보를 초기화 합니다."
+            android:key="wipe_school">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="정보">
+        <Preference
+            android:title="개발자 소개"
+            android:summary="개발자를 소개합니다."
+            android:key="introduce">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
